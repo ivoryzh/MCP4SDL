@@ -99,10 +99,10 @@ Ask Claude:
 
 
 ## Resources
-- **IvoryOS**: [repo](https://gitlab.com/heingroup/ivoryos) | [docs](https://gitlab.com/heingroup/ivoryos/-/wikis/home)
-- **IvoryOS Client**: [repo](https://gitlab.com/heingroup/ivoryos-client)
-- **IvoryOS MCP**: [repo](#) 
-- **FastMCP**: [repo](https://github.com/jlowin/fastmcp) | [docs](https://fastmcp.readthedocs.io/)
+- **IvoryOS**: [repo](https://github.com/AccelerationConsortium/ivoryOS) | [docs](https://ivoryos.readthedocs.io/en/latest/)
+- **IvoryOS Client**: [repo](https://github.com/ivoryzh/ivoryOS-client)
+- **IvoryOS MCP**: [repo](https://github.com/AccelerationConsortium/ivoryOS-mcp) 
+- **FastMCP**: [repo](https://github.com/jlowin/fastmcp) | [docs](https://gofastmcp.com/)
 - **MCP Python SDK**: [repo](https://github.com/modelcontextprotocol/python-sdk) | [docs](https://modelcontextprotocol.io/docs/tools/python-sdk)
 
 ## Contributing
