@@ -83,6 +83,10 @@ Quit the Claude Desktop on Windows (screenshot of quiting from the taskbar)
 
 That's it! You can now control your robots through Claude.
 
+### Developer Guide
+The developer-friendly version (wip)
+
+
 ## Usage Examples
 
 Ask Claude:
@@ -119,4 +123,4 @@ No contribution too small - even trying it out and giving feedback is valuable!
 
 ---
 
-🏆 **Hackathon Project** | 🤖 [MCP Spec](https://modelcontextprotocol.io/)
+🏆 **Hackathon Project** 
