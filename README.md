@@ -86,13 +86,15 @@ That's it! You can now control your robots through Claude.
 ### Work with simulated devices/operations
 If you don't have access to a physical robot, you can simulate device operations by creating **mock functions or classes**.
 
-## Prompt Example
+#### Prompt Example
 
 > Can you provide a dummy self-driving lab script in Python, representing unit operations in chemistry?  
 > I want one version using a **class**, and another example using **simple functions**.  
 > Functions should be **meaningful** and can be scripted as a workflow/experiment.  
 > Use **primitive data inputs** wherever possible.  
 > Finally, provide a **natural language summary** of the experiment.  
+
+![mock_sdl_prompt.png](docs/mock_sdl_prompt.png)
 
 ### Developer Guide
 The developer-friendly version [server.py](server.py) for contributors.
