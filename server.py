@@ -317,6 +317,13 @@ def generate_custom_script() -> str:
         time.sleep(1.0)
         return {'results':results,}
     ```
+    Another example of scripting using building blocks
+    ```
+    def workflow_using_building_block():
+        results = blocks.general.analyze()
+        time.sleep(1.0)
+        return {'results':results,}
+    ```
     Please only use these available action names.
     """
 
