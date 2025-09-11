@@ -14,6 +14,7 @@ pip install ivoryos
 
 
 ### 2. Start IvoryOS
+
 **Option A - Function blocks:**
 ```python
 import ivoryos
@@ -42,12 +43,27 @@ robot = RobotController()
 ivoryos.run(__name__)
 ```
 ![Slide2.PNG](docs/class_ui.png)
+> **Note**  
+> To see the above interfaces, you need to create an account using the app link.  
+>
+> ![img.png](docs/img.png)
+> 
+> It’s recommended to use:
+> ```text
+> username: admin
+> password: admin
+> ```
+> for easy access.  
+>
+> If you choose a different username/password, remember to update the config file in step 5.  
+
+
 ### 3. Install uv and Claude Desktop
 Install uv on Windows: 
 ```bash
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
-Install uv on Mac/Linux:
+Install uv on Mac:
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
@@ -83,16 +99,19 @@ Quit the Claude Desktop on Windows (screenshot of quiting from the taskbar)
 
 That's it! You can now control your robots through Claude.
 
+
+## Additional Steps
 ### Work with simulated devices/operations
 If you don't have access to a physical robot, you can simulate device operations by creating **mock functions or classes**.
 
 #### Prompt Example
-
-> Can you provide a dummy self-driving lab script in Python, representing unit operations in chemistry?  
-> I want one version using a **class**, and another example using **simple functions**.  
-> Functions should be **meaningful** and can be scripted as a workflow/experiment.  
-> Use **primitive data inputs** wherever possible.  
-> Finally, provide a **natural language summary** of the experiment.  
+```prompt
+Can you provide a dummy self-driving lab script in Python, representing unit operations in chemistry?  
+I want one version using a class, and another example using simple functions.  
+Functions should be meaningful and can be scripted as a workflow/experiment.  
+Use primitive data inputs wherever possible.  
+Finally, provide a natural language summary of the experiment.  
+```
 
 ![mock_sdl_prompt.png](docs/mock_sdl_prompt.png)
 
