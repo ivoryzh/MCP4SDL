@@ -1,6 +1,8 @@
 # Robot Control MCP
 
 ![MCP Server](https://badge.mcpx.dev?type=server 'MCP Server')
+[![YouTube Video](https://img.shields.io/badge/YouTube-Readme%20Video-red?logo=youtube&logoColor=white)](https://youtu.be/s3gXrPKNfYY)
+
 
 Control robots and design experiment through Claude Desktop using Model Context Protocol (MCP) and [IvoryOS](https://github.com/AccelerationConsortium/ivoryOS).
 
