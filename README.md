@@ -83,9 +83,23 @@ Quit the Claude Desktop on Windows (screenshot of quiting from the taskbar)
 
 That's it! You can now control your robots through Claude.
 
-### Developer Guide
-The developer-friendly version (wip)
+### Work with simulated devices/operations
+If you don't have access to a physical robot, you can simulate device operations by creating **mock functions or classes**.
 
+## Prompt Example
+
+> Can you provide a dummy self-driving lab script in Python, representing unit operations in chemistry?  
+> I want one version using a **class**, and another example using **simple functions**.  
+> Functions should be **meaningful** and can be scripted as a workflow/experiment.  
+> Use **primitive data inputs** wherever possible.  
+> Finally, provide a **natural language summary** of the experiment.  
+
+### Developer Guide
+The developer-friendly version [server.py](server.py) for contributors.
+```bash
+uv add "mcp[cli]"
+uv run mcp install server.py
+```
 
 ## Usage Examples
 
@@ -119,7 +133,7 @@ Ask Claude:
 - 💡 **Suggest features** - What would make this more useful?
 - 📚 **Improve docs** - Help others get started faster
 
-No contribution too small - even trying it out and giving feedback is valuable!
+No contribution is too small—even trying it out and giving feedback is valuable!
 
 ---
 

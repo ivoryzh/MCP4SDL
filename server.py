@@ -208,7 +208,7 @@ def run_workflow_repeat(repeat_time: Optional[int] = None):
         _check_authentication()
         resp = client.post(
             f"{url}/executions/config",
-            json={"repeat": str(repeat_time) if repeat_time is not None else None}
+            json={"repeat": repeat_time if repeat_time is not None else None}
         )
         if resp.status_code == httpx.codes.OK:
             return resp.json()
